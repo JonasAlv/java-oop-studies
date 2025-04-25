@@ -1,0 +1,46 @@
+# Eclipse project files
+.metadata/
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.settings/
+.loadpath
+.recommenders
+
+# Eclipse IDE files
+.project
+.classpath
+.factorypath
+
+# Build output
+target/
+build/
+out/
+dist/
+*.jar
+*.war
+*.ear
+*.class
+
+# Logs and temp files
+logs/
+*.log
+*.pid
+
+# Dependency directories (Maven/Gradle)
+.mvn/
+.gradle/
+**/gradle/
+**/gradlew
+**/gradlew.bat
+
+# IDE-specific (optional)
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
