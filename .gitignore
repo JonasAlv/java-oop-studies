@@ -12,9 +12,9 @@ local.properties
 .recommenders
 
 # Eclipse IDE files
-.project
-.classpath
-.factorypath
+/*/.project
+/*/.classpath
+/*/.factorypath
 
 # Build output
 target/
