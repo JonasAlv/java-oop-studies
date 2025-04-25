@@ -1,46 +1,41 @@
-# Eclipse project files
+# Eclipse workspace & project files
 .metadata/
-bin/
-tmp/
-*.tmp
-*.bak
-*.swp
-*~.nib
-local.properties
-.settings/
-.loadpath
-.recommenders
+**/.settings/
+**/.project
+**/.classpath
+**/.factorypath
 
-# Eclipse IDE files
-/*/.project
-/*/.classpath
-/*/.factorypath
+# Build directories (Maven/Gradle/Generic)
+**/bin/
+**/target/
+**/build/
+**/out/
+**/dist/
 
-# Build output
-target/
-build/
-out/
-dist/
-*.jar
-*.war
-*.ear
-*.class
+# Compiled files
+**/*.class
+**/*.jar
+**/*.war
+**/*.ear
 
-# Logs and temp files
-logs/
-*.log
-*.pid
+# Logs & temp files
+**/*.log
+**/logs/
+**/*.tmp
+**/*.bak
 
-# Dependency directories (Maven/Gradle)
-.mvn/
-.gradle/
+# Dependency & cache (Maven/Gradle)
+**/.mvn/
+**/.gradle/
 **/gradle/
 **/gradlew
 **/gradlew.bat
+**/mvnw
+**/mvnw.cmd
 
-# IDE-specific (optional)
-.idea/
-*.iml
-*.ipr
-*.iws
-.vscode/
+# IDE-specific (Eclipse, IntelliJ, VSCode)
+**/.idea/
+**/*.iml
+**/*.ipr
+**/*.iws
+**/.vscode/
