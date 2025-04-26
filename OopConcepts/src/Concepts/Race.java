@@ -14,5 +14,9 @@ public class Race {
         motorcycle.setChassisNumber("123456");
         motorcycle.start();
 
+        Vehicle any = motorcycle;
+        any.start();
+        //polymorphism, any will use the motorCycle start();
+
     }
 }
