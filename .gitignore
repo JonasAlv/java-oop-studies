@@ -12,6 +12,7 @@
 **/*.ipr
 **/*.iws
 **/out/
+/out/
 
 # VSCode
 **/.vscode/
