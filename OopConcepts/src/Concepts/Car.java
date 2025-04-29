@@ -6,7 +6,7 @@ public class Car extends Vehicle {
     public void start() {
         checkFuel();
         checkGear();
-        System.out.println("Car start");
+        System.out.println("Car started");
     }
 
     private void checkFuel() {
