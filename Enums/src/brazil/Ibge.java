@@ -11,5 +11,6 @@ public class Ibge {
 		States north = States.CEARA;
 		
 		System.out.println(north.getAcronym() + "-" + north.getName() + "|" + north.getIbge());
+		 
 	}
 }
